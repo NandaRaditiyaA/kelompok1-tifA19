@@ -59,25 +59,40 @@
     <table>
     <form>
         <tr><td>id_user :</td>
-            <td> <input type="text" value="@akun45" readonly size=>
+            <td> <input type="text" value="@akun45" readonly size= 25px>
             </td>
         </tr>
         <tr><td>nama lengkap : </td>
-            <td><input type="text" value="nama">
-            </td>
-        </tr><tr><td>alamat : </td>
-            <td> <input type="text">
-            </td>
-        </tr><tr><td>hak akses : </td>
-            <td><input type="text" value="pegawai" disabled>
+            <td><input type="text" value="nama" size="25" maxlength= "30" >
             </td>
         </tr>
-        
-         
-        nama lengkap : <br/>
-        <br>
-        <br>
+        <tr><td>alamat : </td>
+            <td> <input type="text" size="25">
+            </td>
+        </tr>
+        <tr><td>hak akses : </td>
+            <td><input type="text" value="pegawai" disabled size="25">
+            </td>
+        </tr>
+        <tr>
+            <td>tanggal</td>
+            <td><input type="date" name="day"></td>
+        </tr>
+        <tr>
+            <td>jadwal</td>
+            <td>
+                <input list="jadwal" name="presensi">
+                <datalist id="jadwal">
+                <option value="pagi">
+                <option value="siang">
+                <option value="malem">
+                </datalist>
+            </td>
+        </tr>
     </form>
 </table>
+<center>
+<img src="https://i2.wp.com/saintif.com/wp-content/uploads/2020/01/cropped-Gambar-kartun-keren.jpg?fit=626%2C352&ssl=1" alt="emotion">
+</center>
 </body>
 </html>
