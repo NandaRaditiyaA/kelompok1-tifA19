@@ -8,3 +8,18 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+.jti{
+    padding: 30px;
+	width: 300px;
+	margin: 10px;
+    background: rgb(153, 204, 52);
+    border-radius: 5px;
+}
+
+#shift{
+    padding: 50px;
+	width: fit-content;
+	margin: 10px;
+	background: rgb(245, 245, 141);  
+}
