@@ -1,5 +1,5 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:sans-serif;
     background-image: url(../snow.png);
 }
 .FotoProfile{
@@ -10,6 +10,7 @@ body{
     border-width: 2px;
 }
 .Desc{
+    font-family: sans-serif;
     border: 100%;
     border-style: solid;
     border-color: black;
