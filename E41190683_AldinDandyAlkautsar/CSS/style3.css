@@ -1,0 +1,7 @@
+.FotoProfile{
+    width: 270px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
