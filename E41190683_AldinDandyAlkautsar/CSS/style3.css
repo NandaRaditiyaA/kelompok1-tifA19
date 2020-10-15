@@ -10,8 +10,8 @@ body{
     border-width: 2px;
 }
 .Desc{
-    background-color: cyan;
-}
-.Desc2{
+    border: 100%;
+    border-style: solid;
+    border-color: black;
     background-color: cyan;
 }
